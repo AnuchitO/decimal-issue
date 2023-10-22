@@ -20,3 +20,43 @@ go test -v -run TestFixedFourDigitSum
 ```bash
 go test -v -run GoRoundingBehaviorFloat64
 ```
+
+## Currency exchange
+
+```bash
+go test -v -run TestNormalExchangeUSD2JPY
+```
+
+```bash
+go test -v -run TestFixedExchangeUSD2JPY
+```
+
+## Sales tax calculation
+
+```bash
+go test -v -run TestNormalWithholdingTax
+```
+
+```bash
+go test -v -run TestFixedWithholdingTax
+```
+
+## Pharmaceutical dosage calculation
+
+```bash
+go test -v -run TestNormalDosage
+```
+
+```bash
+go test -v -run TestFixedDosage
+```
+
+## Geographic distance calculation
+
+```bash
+go test -v -run TestNormalGeographicHaversine
+```
+
+```bash
+go test -v -run TestFixedGeographicHaversine
+```
